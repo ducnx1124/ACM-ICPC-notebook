@@ -1,0 +1,32 @@
+{
+   	"scope": "source.c++",
+
+   	"completions":
+   	[
+   		// limits :
+		"numeric_limits<$1>::max()",
+		"numeric_limits<$1>::min()",
+		"INT_MAX",
+		"INT_MIN",
+		"LLONG_MAX",
+		"LLONG_MIN",
+
+		// vars and consts :
+   		"first",
+		"second",
+		"cin",
+		"cout",
+		"stdin",
+		"stdout",
+		"stderr",
+		"INFINITY",
+		"NAN",
+		"string::npos",
+		"nullptr",
+
+		// contructors
+		"make_pair($1)",
+		"make_tuple($1)",
+		"make_shared<$1> ($2)"
+   	]
+}
