@@ -19,7 +19,7 @@ void solve()
 
 int main()
 {
-    ios::sync_with_stdio(false); cin.tie(nullptr);
+    ios::sync_with_stdio(false);
 	if (ifstream("test.inp")) cin.rdbuf((new ifstream("test.inp"))->rdbuf());
 
 	enter();
