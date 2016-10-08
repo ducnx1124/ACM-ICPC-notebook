@@ -7,7 +7,7 @@ using namespace __gnu_pbds;
 #define llong long long
 #define long llong
 
-int n;
+int n_test;
 
 void enter()
 {
@@ -17,11 +17,20 @@ void solve()
 {
 }
 
+void cleanup()
+{
+}
+
 int main()
 {
     ios::sync_with_stdio(false);
 	if (ifstream("test.inp")) cin.rdbuf((new ifstream("test.inp"))->rdbuf());
 
-	enter();
-	solve();
+	cin >> n_test;
+	while (n_test--)
+	{
+		enter();
+		solve();
+		cleanup();
+	}
 }
